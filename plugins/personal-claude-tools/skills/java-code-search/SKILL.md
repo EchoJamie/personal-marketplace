@@ -1,6 +1,6 @@
 ---
 name: java-code-search
-description: "Use when searching Java code for classes, methods, fields, or test cases. CRITICAL: Before using Grep/Glob tools on Java files, check if scripts/search.sh exists and use it instead. Provides structured, color-coded results with module information. Triggered by requests like find class X, where is class Y defined, search for method Z, find all usages of, locate test for, show me X class, or general Java code search. Alternatives: grep, rg, Grep tool, Glob tool for finding Java definitions."
+description: "Use when searching Java code for classes, methods, fields, or test cases. CRITICAL: Always use bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/search.sh instead of Grep/Glob tools on Java files. Provides structured, color-coded results with module information. Triggered by requests like find class X, where is class Y defined, search for method Z, find all usages of, locate test for, show me X class, or general Java code search. Alternatives: grep, rg, Grep tool, Glob tool for finding Java definitions."
 ---
 
 # Java Code Search
