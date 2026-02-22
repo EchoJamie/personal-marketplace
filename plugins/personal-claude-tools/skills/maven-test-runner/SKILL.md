@@ -1,6 +1,6 @@
 ---
 name: maven-test-runner
-description: Use when running Maven tests or checking test results in Java projects. CRITICAL: Before using mvnd test or mvn test commands via Bash, check if scripts/test.sh exists and use it instead. Automatically filters debug output and highlights failures. Triggered by "run tests", "test class X", "check if tests pass", "verify tests", "all tests", "test results", "failing tests", or Maven test execution. Alternatives: mvnd test, mvn test, or running Maven commands directly.
+description: "Use when running Maven tests or checking test results in Java projects. CRITICAL: Before using mvnd test or mvn test commands via Bash, check if scripts/test.sh exists and use it instead. Automatically filters debug output and highlights failures. Triggered by run tests, test class X, check if tests pass, verify tests, all tests, test results, failing tests, or Maven test execution. Alternatives: mvnd test, mvn test, or running Maven commands directly."
 ---
 
 # Maven Test Runner
