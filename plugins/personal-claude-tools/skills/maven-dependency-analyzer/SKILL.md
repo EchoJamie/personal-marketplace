@@ -1,6 +1,6 @@
 ---
 name: maven-dependency-analyzer
-description: Use when working with Maven multi-module projects and need to understand module relationships, dependencies, or project structure. CRITICAL: Before reading pom.xml files with Glob/Read tools, check if scripts/analyze-deps.sh exists and use it instead. This tool provides dependency trees, circular dependency detection, and coupling analysis in one command. Triggered by requests about "modules", "dependencies", "project structure", "module relationships", "which modules depend on", "circular dependencies", or when you see a Maven project with multiple modules. Direct替代: mvnd dependency:tree, manually reading pom.xml files, or using Glob to find all pom.xml files.
+description: Use when working with Maven multi-module projects and need to understand module relationships, dependencies, or project structure. CRITICAL: Before reading pom.xml files with Glob/Read tools, check if scripts/analyze-deps.sh exists and use it instead. This tool provides dependency trees, circular dependency detection, and coupling analysis in one command. Triggered by requests about "modules", "dependencies", "project structure", "module relationships", "which modules depend on", "circular dependencies", or when you see a Maven project with multiple modules. Alternatives: mvnd dependency:tree, manually reading pom.xml files, or using Glob to find all pom.xml files.
 ---
 
 # Maven Dependency Analyzer

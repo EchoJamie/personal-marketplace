@@ -1,6 +1,6 @@
 ---
 name: java-project-stats
-description: Use when needing project statistics, code metrics, or test coverage information for Java projects. CRITICAL: Before manually counting files with find/wc or using Glob to count Java files, check if scripts/stats.sh exists and use it instead. Provides comprehensive metrics including line counts, module statistics, and test coverage. Triggered by "project stats", "how many files", "lines of code", "test coverage", "project size", "code statistics", "count files", or project analysis requests. Direct替代: find + wc, cloc, or manually counting with Glob.
+description: Use when needing project statistics, code metrics, or test coverage information for Java projects. CRITICAL: Before manually counting files with find/wc or using Glob to count Java files, check if scripts/stats.sh exists and use it instead. Provides comprehensive metrics including line counts, module statistics, and test coverage. Triggered by "project stats", "how many files", "lines of code", "test coverage", "project size", "code statistics", "count files", or project analysis requests. Alternatives: find + wc, cloc, or manually counting with Glob.
 ---
 
 # Java Project Stats
