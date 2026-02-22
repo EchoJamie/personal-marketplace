@@ -1,0 +1,9 @@
+{
+  "name": "java-dev-tools",
+  "description": "Java/Maven development tools skills - optimized wrappers for search.sh, analyze-deps.sh, test.sh, stats.sh",
+  "version": "1.0.0",
+  "author": {
+    "name": "EchoJamie",
+    "email": "myz0104@163.com"
+  }
+}
