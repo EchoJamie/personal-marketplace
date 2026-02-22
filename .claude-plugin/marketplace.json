@@ -1,0 +1,20 @@
+{
+  "name": "personal-marketplace",
+  "owner": {
+    "name": "EchoJamie",
+    "email": "myz0104@163.com"
+  },
+  "metadata": {
+    "description": "Personal Java/Maven development tools for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "personal-claude-tools",
+      "source": "./plugins/personal-claude-tools",
+      "description": "Java/Maven development tools skills - smart wrappers for shell scripts including code search, dependency analysis, test runner, and project statistics",
+      "version": "1.0.0",
+      "strict": false
+    }
+  ]
+}
