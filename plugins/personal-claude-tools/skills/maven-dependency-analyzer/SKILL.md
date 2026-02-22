@@ -45,7 +45,7 @@ Maven 模块依赖分析工具，优先使用 `scripts/analyze-deps.sh` 而非 `
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/analyze-deps.sh
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/analyze-deps.sh
 ```
 
 输出格式：
@@ -74,7 +74,7 @@ virtual-instruction
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/analyze-deps.sh -c
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/analyze-deps.sh -c
 ```
 
 如果有循环依赖，输出类似：
@@ -95,7 +95,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/analy
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/analyze-deps.sh -s virtual-hardware
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/analyze-deps.sh -s virtual-hardware
 ```
 
 输出包括：
@@ -160,7 +160,7 @@ virtual-instruction    ●         ↑    ↑
 
 调用方式（通过 Bash 工具）：
 ```bash
-cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/analyze-deps.sh -m
+cd /path/to/project && bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/analyze-deps.sh -m
 ```
 
 ## Common Mistakes

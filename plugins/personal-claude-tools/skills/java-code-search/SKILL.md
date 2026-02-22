@@ -50,7 +50,7 @@ description: Use when searching Java code for classes, methods, fields, or test 
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/search.sh -c BooleanALU
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/search.sh -c BooleanALU
 ```
 
 输出格式：
@@ -77,7 +77,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/searc
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/search.sh -m add
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/search.sh -m add
 ```
 
 输出包含文件路径、行号、方法签名。
@@ -88,7 +88,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/searc
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/search.sh -t AddInstruction
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/search.sh -t AddInstruction
 ```
 
 输出测试文件位置和测试方法列表。
@@ -119,7 +119,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/searc
 
 调用方式（通过 Bash 工具）：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/search.sh -c ClassName
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/search.sh -c ClassName
 ```
 
 ## Common Mistakes

@@ -43,7 +43,7 @@ description: Use when needing project statistics, code metrics, or test coverage
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh
 ```
 
 输出格式：
@@ -77,7 +77,7 @@ virtual-hardware:
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh -l
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh -l
 ```
 
 ### 只查看测试统计
@@ -86,7 +86,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh -t
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh -t
 ```
 
 ## Understanding Metrics
@@ -148,7 +148,7 @@ cloc . --exclude-dir=target
 
 调用方式（通过 Bash 工具）：
 ```bash
-cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh
+cd /path/to/project && bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh
 ```
 
 脚本使用的命令：
@@ -176,7 +176,7 @@ cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-ma
 
 用户："这个项目有多大？"
 
-执行：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh`
+执行：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh`
 
 快速了解：280 个源文件，99 个测试文件，约 1.5 万行代码。
 
@@ -184,7 +184,7 @@ cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-ma
 
 用户："哪些模块测试不足？"
 
-执行：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh -m`
+执行：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh -m`
 
 查看各模块的测试代码占比，识别 < 20% 的模块。
 
@@ -195,10 +195,10 @@ cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-ma
 执行：
 ```bash
 # 变更前
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh > before.txt
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh > before.txt
 
 # 变更后
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh > after.txt
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh > after.txt
 
 # 对比
 diff before.txt after.txt
@@ -208,6 +208,6 @@ diff before.txt after.txt
 
 用户："重构后代码行数变化？"
 
-执行：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/stats.sh -l`
+执行：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/stats.sh -l`
 
 对比重构前后的代码行数，验证简化效果。

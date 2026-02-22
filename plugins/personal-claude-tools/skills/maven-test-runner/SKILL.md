@@ -47,7 +47,7 @@ description: Use when running Maven tests or checking test results in Java proje
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh
 ```
 
 输出格式：
@@ -76,7 +76,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh -t BooleanALUTest
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh -t BooleanALUTest
 ```
 
 输出该测试类的详细结果。
@@ -87,7 +87,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.
 
 执行：
 ```bash
-bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh -q
+bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh -q
 ```
 
 只显示摘要，不显示详细输出。
@@ -116,7 +116,7 @@ bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.
 
 调用方式（通过 Bash 工具）：
 ```bash
-cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh -m virtual-base
+cd /path/to/project && bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh -m virtual-base
 ```
 
 支持的 Maven 命令：
@@ -142,8 +142,8 @@ cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-ma
 
 ### 测试失败时
 
-1. 查看详细输出：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh -v`
-2. 查看特定测试：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh -t <FailedTestClass>`
+1. 查看详细输出：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh -v`
+2. 查看特定测试：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh -t <FailedTestClass>`
 3. 检查日志文件：`target/surefire-reports/*.txt`
 
 ### 编译错误时
@@ -154,6 +154,6 @@ cd /path/to/project && bash ~/.claude/plugins/marketplaces/EchoJamie-personal-ma
 
 ### 找不到测试类
 
-1. 确认测试类名：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/search.sh -t <ClassName>`
+1. 确认测试类名：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/search.sh -t <ClassName>`
 2. 检查测试文件：`find . -name "*Test.java" -type f`
-3. 完整类名：`bash ~/.claude/plugins/marketplaces/EchoJamie-personal-marketplace/scripts/test.sh -t org.jamie.virtual hardware.alu.BooleanALUTest`
+3. 完整类名：`bash ~/.claude/plugins/marketplaces/personal-marketplace/scripts/test.sh -t org.jamie.virtual hardware.alu.BooleanALUTest`
