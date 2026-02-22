@@ -1,12 +1,12 @@
-# Java Dev Tools Marketplace
+# Personal Marketplace
 
-A Claude Code marketplace containing Java/Maven development tools.
+A personal Claude Code marketplace containing custom development tools.
 
 ## Plugins
 
 ### java-dev-tools
 
-Personal Java/Maven development tools skills for Claude Code - optimized wrappers for shell scripts.
+Java/Maven development tools skills for Claude Code - optimized wrappers for shell scripts.
 
 **Skills included:**
 1. **java-code-search** - Smart code search (classes, methods, tests)
@@ -25,8 +25,8 @@ These skills require the following scripts in your project's `scripts/` director
 
 In Claude Code:
 ```bash
-/plugin marketplace add EchoJamie/java-dev-tools-marketplace
-/plugin install java-dev-tools@java-dev-tools-marketplace
+/plugin marketplace add EchoJamie/personal-marketplace
+/plugin install java-dev-tools@personal-marketplace
 ```
 
 ## Author
